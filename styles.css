@@ -51,54 +51,53 @@ footer {
 
 .intel-info {
   text-align: center;
-    font-size: 25px;
-    border: 2px solid #2ab9c9;
-    border-radius: 40%;
-    padding: 25px 60px;
-    display: block;
-    margin: 0 60px;
-    margin-top: 20px;
-    background-color: #2ab9c9;
-    box-shadow: 5px 3px 2px 5px #088e89e7;
-
+  font-size: 25px;
+  border: 2px solid #2ab9c9;
+  border-radius: 40%;
+  padding: 25px 60px;
+  display: block;
+  margin: 0 60px;
+  margin-top: 20px;
+  background-color: #2ab9c9;
+  box-shadow: 5px 3px 2px 5px #088e89e7;
 }
 
-hr{
+hr {
   border: 15px dotted white;
   border-top: none;
-
 }
 
- .contact{
-  text-align: center;  text-decoration: underline;
+.contact {
+  text-align: center;
+  text-decoration: underline;
 }
 
-.socials{
+.socials {
   color: white;
 }
 
-.phone{
-
+.phone {
   margin-top: 15px;
-
   text-align: center;
   font-size: 29px;
 }
-.e-mail{  
+.email {
+  text-align: center;
+}
+.e-mail {
   margin-top: 15px;
   text-align: center;
   font-size: 29px;
   color: white;
   text-decoration: none;
 }
-.e-mail:hover{
+.e-mail:hover {
   text-decoration: underline;
 }
-.media{  
+.media {
   margin-top: 15px;
   text-align: center;
   font-size: 29px;
-
 }
 
 @media (min-width: 300px) {
@@ -110,7 +109,6 @@ hr{
   .navbar-brand {
     display: none;
   }
-  
 }
 
 @media (min-width: 450px) {
@@ -130,47 +128,48 @@ hr{
     margin: 0 60px;
     margin-top: 15px;
     background-color: #2ab9c9;
-  } 
-
- 
+  }
 }
 
 @media (max-width: 430px) {
   .intel-info {
     font-size: 12px;
-text-align: center;
-margin-top: 15px;
-margin-bottom: 5px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
     border: none;
   }
-  .contact{
+  .contact {
     text-decoration: none;
     text-align: left;
   }
-.phone{
-  border: 2px solid white;
-  border-radius: 20px;
-  padding: 5px 7px;
-  margin-top: 15px;
-  text-align: left;
-  margin-right: 25px ;
-}
-.email{  border: 2px solid white;
-  border-radius: 20px;
-  padding: 5px 10px;
-  margin-top: 15px;
-  text-align: left;
-  margin-right: 15px ;
-color: white;
-text-decoration: none;
-}
-.media{
-  border: 2px solid white;
-  border-radius: 20px;
-  padding: 5px 7px;
-  margin-top: 15px;
-  text-align: left;
-  margin-right: 25px ;
-
-}
+  .phone {
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px 7px;
+    margin-top: 15px;
+    text-align: left;
+    margin-right: 25px;
+  }
+  .email {
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-top: 15px;
+    text-align: left;
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+  }
+  .e-mail {
+    font-size: 27px;
+  }
+  .media {
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px 7px;
+    margin-top: 15px;
+    text-align: left;
+    margin-right: 25px;
+  }
 }
