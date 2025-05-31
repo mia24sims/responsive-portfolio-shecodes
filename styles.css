@@ -57,7 +57,10 @@ footer {
     padding: 25px 60px;
     display: block;
     margin: 0 60px;
+    margin-top: 20px;
     background-color: #2ab9c9;
+    box-shadow: 5px 3px 2px 5px #088e89e7;
+
 }
 
 hr{
@@ -85,11 +88,17 @@ hr{
   margin-top: 15px;
   text-align: center;
   font-size: 29px;
+  color: white;
+  text-decoration: none;
+}
+.email:hover{
+  text-decoration: underline;
 }
 .media{  
   margin-top: 15px;
   text-align: center;
   font-size: 29px;
+
 }
 
 @media (min-width: 300px) {
@@ -131,6 +140,7 @@ hr{
     font-size: 12px;
 text-align: center;
 margin-top: 15px;
+margin-bottom: 5px;
     border: none;
   }
   .contact{
@@ -151,7 +161,8 @@ margin-top: 15px;
   margin-top: 15px;
   text-align: left;
   margin-right: 25px ;
-
+color: white;
+text-decoration: none;
 }
 .media{
   border: 2px solid white;
