@@ -1,5 +1,5 @@
-:root{
-  --font-design: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+:root {
+  --font-design: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 body {
@@ -42,14 +42,25 @@ h2 {
 }
 
 footer {
-  margin-top: 15px ;
-  text-align:center;
+  margin-top: 15px;
+  text-align: center;
   display: block;
   font-size: 30px;
   font-weight: 600;
 }
 
-@media (min-width: 700px) {
+.intel-info {
+  text-align: center;
+    font-size: 25px;
+    border: 2px solid #2ab9c9;
+    border-radius: 40%;
+    padding: 25px 60px;
+    display: block;
+    margin: 0 60px;
+    background-color: #2ab9c9;
+}
+
+@media (min-width: 300px) {
   .waves {
     display: block;
     margin: 0 auto;
@@ -58,12 +69,33 @@ footer {
   .navbar-brand {
     display: none;
   }
-  footer{
+}
+
+@media (min-width: 450px) {
+  footer {
     font-size: 57px;
     display: block;
-    margin:0 auto;
+    margin: 0 auto;
     font-weight: 900;
-    margin-top: -70px;
- text-decoration: underline;
+  }
+  .intel-info {
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid #2ab9c9;
+    border-radius: 40%;
+    padding: 25px 60px;
+    display: block;
+    margin: 0 60px;
+    margin-top: 15px;
+    background-color: #2ab9c9;
+  }
+}
+
+@media (max-width: 412px) {
+  .intel-info {
+    font-size: 12px;
+text-align: center;
+margin-top: 15px;
+    border: none;
   }
 }
