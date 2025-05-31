@@ -84,14 +84,14 @@ hr{
   text-align: center;
   font-size: 29px;
 }
-.email{  
+.e-mail{  
   margin-top: 15px;
   text-align: center;
   font-size: 29px;
   color: white;
   text-decoration: none;
 }
-.email:hover{
+.e-mail:hover{
   text-decoration: underline;
 }
 .media{  
