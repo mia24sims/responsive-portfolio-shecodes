@@ -1,18 +1,13 @@
 :root {
   --font-design: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
---primary-color: #2ab9c9;
---seconday-color: #088e89e7 ;
-
+  --primary-color: #2ab9c9;
+  --seconday-color: #088e89e7;
 }
 
 body {
   background-size: cover;
   width: 100;
-  background: radial-gradient(
-    circle at 10% 100%,
-    #6674ec 0%,
-    #32e7db 90%
-  );
+  background: radial-gradient(circle at 10% 100%, #6674ec 0%, #32e7db 90%);
   background-repeat: no-repeat;
   min-height: 100vh;
   color: white;
@@ -40,8 +35,9 @@ h2 {
 }
 
 .waves {
-max-width: 100%;
+  max-width: 25%;
   margin-bottom: -15px;
+  border-radius: 15%;
 }
 
 footer {
@@ -102,8 +98,8 @@ hr {
   text-align: center;
   font-size: 29px;
 }
-.dive{
-  margin-top: 25px;
+.dive {
+  margin-top: 35px;
   font-size: 28px;
   font-weight: 500;
   text-align: center;
@@ -114,84 +110,79 @@ hr {
   padding: 20px 40px;
 }
 
-.dive:hover{
+.dive:hover {
   opacity: 100%;
 }
 
-button a{
+button a {
   text-decoration: none;
-   color: white;
+  color: white;
 }
 
-.featured{
+.featured {
   text-align: center;
   margin-top: 25px;
   font-style: italic;
 }
-.project-set1{
-margin-top: 50px;
-}
-
-.project-set1 p{
-  font-size: 25px;
-}
-
-.project-set2{
+.project-set1 {
   margin-top: 50px;
 }
 
-.project-set2 p{
+.project-set1 p {
   font-size: 25px;
 }
 
-.project-set3 p{
-  font-size: 25px;
-}
-
-.project-set3{
+.project-set2 {
   margin-top: 50px;
 }
 
+.project-set2 p {
+  font-size: 25px;
+}
 
+.project-set3 p {
+  font-size: 25px;
+}
+
+.project-set3 {
+  margin-top: 50px;
+}
 
 .project-img1 {
   border-radius: 15%;
   border: 4px solid var(--primary-color);
   box-shadow: 7px 7px 7px #80808089;
-
 }
 
-.project-img1:hover{
-scale: 1.2;
-transition: all 150ms ease-in-out;
+.project-img1:hover {
+  scale: 1.2;
+  transition: all 150ms ease-in-out;
 }
 
-.project-img2{
+.project-img2 {
   border-radius: 15%;
   border: 4px solid var(--primary-color);
   box-shadow: 7px 7px 7px rgba(128, 128, 128, 0.536);
-
 }
 
-.project-img2:hover{
+.project-img2:hover {
   scale: 1.2;
   transition: all 150ms ease-in-out;
-  }
- 
-.project-img3{
+}
+
+.project-img3 {
   border-radius: 15%;
   border: 4px solid var(--primary-color);
   box-shadow: 7px 7px 7px rgba(128, 128, 128, 0.536);
-
 }
 
-.project-img3:hover{
+.project-img3:hover {
   scale: 1.2;
   transition: all 150ms ease-in-out;
-  }
+}
 
-.view{
- color: white;
+.view {
+  color: white;
   text-align: center;
   opacity: 87%;
   background-color: #2ed1c6cd;
@@ -200,20 +191,28 @@ transition: all 150ms ease-in-out;
   padding: 20px 40px;
 }
 
-.view:hover{
+.view:hover {
   opacity: 100%;
   cursor: pointer;
   transition: all 150ms ease-in-out;
   box-shadow: 7px 7px 7px #80808089;
 }
 
-
-
-.inquiry{
-  font-size: 35px;
+.work-inquiry {
+  margin-top: 15px;
 }
 
-.contact-button{
+.inquiry {
+  font-size: 35px;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.work-with-me {
+  font-size: 25px;
+}
+
+.contact-button {
   font-size: 25px;
   color: white;
   text-align: center;
@@ -221,21 +220,14 @@ transition: all 150ms ease-in-out;
   border: 2px solid var(--primary-color);
   border-radius: 45%;
   padding: 20px 40px;
+  margin-top: 15px;
 }
 
-.contact-button:hover{
-
+.contact-button:hover {
   cursor: pointer;
   transition: all 150ms ease-in-out;
   box-shadow: 7px 7px 7px #80808089;
 }
-
-
-.work-with-me{
-  font-size: 25px;
-}
-
-
 
 @media (min-width: 300px) {
   .waves {
@@ -268,7 +260,13 @@ transition: all 150ms ease-in-out;
   }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 935px) {
+  .waves {
+    max-width: 100%;
+    margin-bottom: -15px;
+    border-radius: 0%;
+
+  }
   .intel-info {
     font-size: 12px;
     text-align: center;
@@ -309,25 +307,37 @@ transition: all 150ms ease-in-out;
     text-align: left;
     margin-right: 25px;
   }
-  .project-img1{max-width: 100%;}
-  .project-img2{max-width: 100%;}
-.project-img3{max-width: 100%;}
+  .project-img1 {
+    max-width: 100%;
+  }
+  .project-img2 {
+    max-width: 100%;
+  }
+  .project-img3 {
+    max-width: 100%;
+  }
 
-.project-set1 p{
-  font-size: x-small;
-}
-.project-set2 p{
-  font-size: x-small;
-}
-.project-set3 p{
-  font-size: x-small;
-}
-.view{
-  font-size: 10px;
-  padding: 10px 20px;
-}
-.contact-button{
-  font-size: 20px;
-  padding: 10px 20px;
-}
+  .project-set1 p {
+    font-size: x-small;
+  }
+  .project-set2 p {
+    font-size: x-small;
+  }
+  .project-set3 p {
+    font-size: x-small;
+  }
+  .view {
+    font-size: 10px;
+    padding: 10px 20px;
+  }
+  .contact-button {
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+  .inquiry {
+    font-size: 27px;
+  }
+  .work-with-me {
+    font-size: 17px;
+  }
 }
