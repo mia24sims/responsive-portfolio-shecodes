@@ -229,6 +229,7 @@ button a {
   box-shadow: 7px 7px 7px #80808089;
 }
 
+
 @media (min-width: 300px) {
   .waves {
     display: block;
