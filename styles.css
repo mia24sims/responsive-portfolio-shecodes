@@ -181,6 +181,21 @@ button a {
   transition: all 150ms ease-in-out;
 }
 
+.project-img4 {
+  background-color: #F5F2FE;
+  height: 307px;
+  border-radius: 15%;
+  border: 4px solid var(--primary-color);
+  box-shadow: 7px 7px 7px #80808089;
+}
+
+.project-img4:hover {
+  scale: 1.2;
+  transition: all 150ms ease-in-out;
+}
+
+
+
 .view {
   color: white;
   text-align: center;
