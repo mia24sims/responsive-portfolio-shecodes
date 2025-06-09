@@ -249,7 +249,7 @@ button a {
   }
   .intel-info {
     text-align: center;
-    font-size: 25px;
+    font-size: 22px;
     border: 2px solid var(--primary-color);
     border-radius: 40%;
     padding: 28px 60px;
@@ -270,7 +270,7 @@ button a {
   }
   .intel-info {
     font-size: 12px;
-    text-align: center;
+    text-align: left;
     margin-top: 15px;
     margin-bottom: 5px;
     border: none;
