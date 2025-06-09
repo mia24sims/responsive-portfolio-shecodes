@@ -82,12 +82,12 @@ hr {
   font-size: 29px;
 }
 .email {
-  text-align: center;
+  text-align: center;  font-size: 24px;
+
 }
 .e-mail {
   margin-top: 15px;
   text-align: center;
-  font-size: 29px;
   color: white;
   text-decoration: none;
 }
@@ -369,7 +369,7 @@ text-decoration: none;
     text-decoration: none;
   }
   .e-mail {
-    font-size: 27px;
+    font-size: 24px;
   }
   .media {
     border: 2px solid white;
