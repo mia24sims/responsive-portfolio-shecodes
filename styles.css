@@ -266,11 +266,10 @@ button a {
     margin-bottom: -15px;
     border-radius: 0%;
     border-radius: 15%;
-
   }
   .intel-info {
-    font-size: 20px;
-    text-align: left;
+    font-size: 15px;
+    text-align: center;
     margin-top: 15px;
     margin-bottom: 5px;
     border: none;
