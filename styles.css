@@ -269,12 +269,12 @@ button a {
 
   }
   .intel-info {
-    font-size: 12px;
+    font-size: 20px;
     text-align: left;
     margin-top: 15px;
     margin-bottom: 5px;
     border: none;
-    background-color: transparent;
+    background-color: var(--primary-color);
   }
   .contact {
     text-decoration: none;
