@@ -249,12 +249,11 @@ button a {
   }
   .intel-info {
     text-align: center;
-    font-size: 22px;
+    font-size: 28px;
     border: 2px solid var(--primary-color);
-    border-radius: 40%;
+    border-radius: 10%;
     padding: 28px 60px;
     display: block;
-    margin: 0 60px;
     margin-top: 15px;
     background-color: var(--primary-color);
   }
