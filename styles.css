@@ -112,6 +112,8 @@ hr {
 
 .dive:hover {
   opacity: 100%;
+  cursor: pointer;
+  box-shadow: 7px 7px 7px #80808089;
 }
 
 button a {
@@ -152,33 +154,36 @@ button a {
   border-radius: 15%;
   border: 4px solid var(--primary-color);
   box-shadow: 7px 7px 7px #80808089;
+  transition: all 150ms ease-in-out;
+
 }
 
 .project-img1:hover {
   scale: 1.2;
-  transition: all 150ms ease-in-out;
 }
 
 .project-img2 {
   border-radius: 15%;
   border: 4px solid var(--primary-color);
   box-shadow: 7px 7px 7px rgba(128, 128, 128, 0.536);
+  transition: all 150ms ease-in-out;
+
 }
 
 .project-img2:hover {
   scale: 1.2;
-  transition: all 150ms ease-in-out;
 }
 
 .project-img3 {
   border-radius: 15%;
   border: 4px solid var(--primary-color);
   box-shadow: 7px 7px 7px rgba(128, 128, 128, 0.536);
+  transition: all 150ms ease-in-out;
+
 }
 
 .project-img3:hover {
   scale: 1.2;
-  transition: all 150ms ease-in-out;
 }
 
 .project-img4 {
@@ -204,12 +209,13 @@ button a {
   border: 2px solid var(--primary-color);
   border-radius: 45%;
   padding: 20px 40px;
+  transition: all 150ms ease-in-out;
+
 }
 
 .view:hover {
   opacity: 100%;
   cursor: pointer;
-  transition: all 150ms ease-in-out;
   box-shadow: 7px 7px 7px #80808089;
 }
 
